@@ -4,7 +4,6 @@
     <title>Add customer</title>
 </head>
 <body>
-
 <a href="/"></a>
 <a href="/customers">Customers</a>
 <form action="/addCustomer" method="post">
@@ -16,6 +15,5 @@
 
     <input type="submit" value="Submit">
 </form>
-
 </body>
 </html>

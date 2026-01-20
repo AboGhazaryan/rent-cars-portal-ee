@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+
 @WebServlet(value = ("/deleteCustomer"))
 public class DeleteCustomerServlet extends HttpServlet {
     private CustomerService customerService = new CustomerService();

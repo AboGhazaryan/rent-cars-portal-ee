@@ -7,6 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class RentalService {
     private Connection connection = DBConnectionProvider.getInstance().getConnection();
     private CarService carService = new CarService();

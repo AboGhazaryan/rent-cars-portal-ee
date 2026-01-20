@@ -42,6 +42,5 @@
     </select>
     <input type="submit" value="Add Rental">
 </form>
-
 </body>
 </html>

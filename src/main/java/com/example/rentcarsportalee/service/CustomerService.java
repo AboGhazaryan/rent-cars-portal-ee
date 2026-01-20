@@ -6,7 +6,6 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class CustomerService {
     private Connection connection = DBConnectionProvider.getInstance().getConnection();
 

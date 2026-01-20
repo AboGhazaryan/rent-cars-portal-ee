@@ -3,6 +3,7 @@
 <%@ page import="com.example.rentcarsportalee.model.User" %>
 <%@ page import="com.example.rentcarsportalee.model.UserRole" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Rentals</title>

@@ -8,7 +8,6 @@
 <%Customer customer = (Customer) request.getAttribute("customer"); %>
 
 <body>
-
 <a href="/">Home</a>
 <a href="/customers">Customers</a>
 

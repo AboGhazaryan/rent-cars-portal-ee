@@ -1,10 +1,8 @@
 package com.example.rentcarsportalee.service;
 
-
 import com.example.rentcarsportalee.db.DBConnectionProvider;
 import com.example.rentcarsportalee.model.User;
 import com.example.rentcarsportalee.model.UserRole;
-
 import java.sql.*;
 
 public class UserService {

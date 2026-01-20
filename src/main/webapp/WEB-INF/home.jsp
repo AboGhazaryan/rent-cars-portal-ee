@@ -6,7 +6,6 @@
     <title>home</title>
 </head>
 <%User user = (User) session.getAttribute("user");%>
-
 <body>
 <h1>WELCOM TO CAR RENTAL SYSTEM</h1>
 <p>

@@ -32,7 +32,6 @@
         <td><a href="/deleteCustomer?id=<%=customer.getId()%>">Delete</a> | <a href="/changeCustomer?id=<%=customer.getId()%>">Change</a> </td>
     </tr>
     <%}%>
-
 </table>
 </body>
 </html>

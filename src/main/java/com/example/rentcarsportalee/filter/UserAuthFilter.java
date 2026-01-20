@@ -1,6 +1,5 @@
 package com.example.rentcarsportalee.filter;
 
-
 import com.example.rentcarsportalee.model.User;
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;

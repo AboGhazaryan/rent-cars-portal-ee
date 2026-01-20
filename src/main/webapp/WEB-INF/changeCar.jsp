@@ -8,7 +8,6 @@
 <%Car car = (Car) request.getAttribute("car"); %>
 
 <body>
-
 <a href="/">Home</a>
 <a href="/cars">Cars</a>
 
