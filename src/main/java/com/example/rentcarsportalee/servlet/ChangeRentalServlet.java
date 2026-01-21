@@ -15,8 +15,6 @@ import java.io.IOException;
 import java.sql.Date;
 import java.util.List;
 
-
-
 @WebServlet (value = "/changeRental")
 public class ChangeRentalServlet extends HttpServlet {
     private RentalService rentalService = new RentalService();

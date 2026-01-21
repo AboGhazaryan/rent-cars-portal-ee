@@ -12,6 +12,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+
 @WebServlet("/getImage")
 public class GetImageServlet extends HttpServlet {
     private static final String IMAGE_UPLOAD_PATH = "C:\\Users\\Admin\\IdeaProjects\\rent-cars-portal-ee\\upload-images\\";

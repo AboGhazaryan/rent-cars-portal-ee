@@ -9,6 +9,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Rental {
+
     private int id;
     private Car car;
     private Customer customer;

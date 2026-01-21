@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/home.css">
 </head>
 <%User user = (User) session.getAttribute("user");%>
-
 <body>
 <div class="container">
     <h1>WELCOME TO CAR RENTAL SYSTEM</h1>

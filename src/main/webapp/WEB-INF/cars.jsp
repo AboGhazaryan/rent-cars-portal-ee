@@ -8,7 +8,6 @@
     <title>CARS</title>
     <link rel="stylesheet" href="../css/cars.css">
 </head>
-
 <body>
 <%User user = (User) session.getAttribute("user");%>
 <%List<Car> cars = (List<Car>) request.getAttribute("cars");%>

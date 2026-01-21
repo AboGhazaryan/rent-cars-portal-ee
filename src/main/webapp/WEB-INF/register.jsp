@@ -4,7 +4,6 @@
     <title>Register</title>
     <link rel="stylesheet" href="../css/register.css">
 </head>
-
 <body>
 <%String message = (String) session.getAttribute("message");%>
 <%if (message != null && !message.isEmpty()) {%>

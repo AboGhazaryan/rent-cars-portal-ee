@@ -10,7 +10,6 @@
 <body>
 <a href="/">Home</a>
 <a href="/customers">Customers</a>
-
 <form action="/changeCustomer" method="post">
     <input type="hidden" name="id" value="<%= customer.getId() %>">
     Name:<input type="text" name="name" value="<%=customer.getName()%>"><br>

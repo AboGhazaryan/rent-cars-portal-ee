@@ -5,6 +5,7 @@ import com.example.rentcarsportalee.model.User;
 import com.example.rentcarsportalee.model.UserRole;
 import java.sql.*;
 
+
 public class UserService {
     private Connection connection = DBConnectionProvider.getInstance().getConnection();
 

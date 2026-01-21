@@ -10,7 +10,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-
 @WebServlet (value = "/rentals")
 public class RentalsServlet extends HttpServlet {
 

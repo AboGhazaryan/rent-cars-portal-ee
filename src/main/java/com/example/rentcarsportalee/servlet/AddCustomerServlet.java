@@ -9,7 +9,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
 @WebServlet(value = "/addCustomer")
 public class AddCustomerServlet extends HttpServlet {
     private CustomerService customerService = new CustomerService();

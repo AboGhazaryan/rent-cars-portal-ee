@@ -9,7 +9,6 @@
     <title>Rentals</title>
     <link rel="stylesheet" href="../css/rentals.css">
 </head>
-
 <body>
 <%User user = (User) session.getAttribute("user");%>
 <%List<Rental> rentals = (List<Rental>) request.getAttribute("rentals");%>

@@ -21,7 +21,6 @@
         <th>email</th>
         <th>Action</th>
     </tr>
-
     <%for (Customer customer: customers){%>
     <tr>
         <td><%=customer.getId()%></td>

@@ -9,7 +9,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
 @WebServlet(value = ("/deleteRental"))
 public class DeleteRentalServlet extends HttpServlet {
     private RentalService rentalService = new RentalService();

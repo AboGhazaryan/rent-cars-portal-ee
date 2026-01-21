@@ -11,7 +11,6 @@ import java.util.List;
 public class CarService {
     private Connection connection = DBConnectionProvider.getInstance().getConnection();
 
-
     public void addCar(Car car){
 
         String sql = "INSERT INTO car(brand,model,year,daily_Rate,status,picture_name) VALUES (?,?,?,?,?,?)";

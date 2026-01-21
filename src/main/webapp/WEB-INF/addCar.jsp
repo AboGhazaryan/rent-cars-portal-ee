@@ -4,6 +4,7 @@
     <title>Add Course</title>
     <link rel ="stylesheet" href="../css/addCar.css">
 </head>
+
 <body>
 <a href="/">Home</a>
 <a href="/cars">Cars</a>

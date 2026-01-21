@@ -13,6 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Date;
 
+
 @WebServlet(value = "/addRental")
 public class AddRentalServlet extends HttpServlet {
     private RentalService rentalService = new RentalService();

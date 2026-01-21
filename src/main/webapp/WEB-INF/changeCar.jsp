@@ -10,7 +10,6 @@
 <body>
 <a href="/">Home</a>
 <a href="/cars">Cars</a>
-
 <form action="/changeCar" method="post">
     <input type="hidden" name="id" value="<%= car.getId() %>">
     Brand:<input type="text" name="brand" value="<%=car.getBrand()%>"><br>

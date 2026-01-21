@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
+
 @WebFilter(urlPatterns = {"/cars","/customers","/addCustomer","/deleteCustomer","/changeCustomer","/rentals","/addRental",})
 public class UserAuthFilter implements Filter {
     @Override

@@ -10,6 +10,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+
 @WebServlet(value="/register")
 public class RegisterServlet extends HttpServlet {
     private UserService userService = new UserService();

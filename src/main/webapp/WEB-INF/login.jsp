@@ -4,7 +4,6 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
-
 <body>
 <div class="login-container">
     <%String message = (String) session.getAttribute("message");%>

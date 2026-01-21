@@ -9,7 +9,6 @@ import java.util.List;
 public class CustomerService {
     private Connection connection = DBConnectionProvider.getInstance().getConnection();
 
-
     public void addCustomer(Customer customer){
 
         String sql = "INSERT INTO customer(name,surname,license_number,phone,email) VALUES (?,?,?,?,?)";
