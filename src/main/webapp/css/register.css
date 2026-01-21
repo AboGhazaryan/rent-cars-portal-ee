@@ -63,6 +63,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
+
 .register-container input[type="submit"]:hover {
     background-color: #0d47a1;
 }

@@ -61,6 +61,7 @@ table a:first-child {
     background: #e53935; /* Delete */
 }
 
+
 table a:last-child {
     background: #43a047; /* Change */
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/changeRental.css">
 </head>
 <%Rental rental = (Rental) request.getAttribute("rental");%>
+
 <body>
 <a href="/">Home</a>
 <a href="/rentals">Rentals</a>

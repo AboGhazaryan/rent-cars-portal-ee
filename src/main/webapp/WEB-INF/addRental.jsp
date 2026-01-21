@@ -7,6 +7,7 @@
     <title>Add Rental</title>
     <link rel="stylesheet" href="../css/addRental.css">
 </head>
+
 <body>
 <a href="/">Home</a>
 <a href="/rentals">Rentals</a>

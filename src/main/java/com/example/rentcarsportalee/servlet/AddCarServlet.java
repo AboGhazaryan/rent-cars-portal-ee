@@ -13,7 +13,6 @@ import jakarta.servlet.http.Part;
 
 import java.io.IOException;
 
-
 @WebServlet(value="/addCar")
 @MultipartConfig(maxFileSize = 10*1024*1024, maxRequestSize = 50 * 1024*1024, fileSizeThreshold =1024*1024)
 public class AddCarServlet extends HttpServlet {

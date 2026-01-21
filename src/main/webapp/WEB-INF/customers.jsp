@@ -30,7 +30,9 @@
         <td><%=customer.getLicenseNumber()%></td>
         <td><%=customer.getPhone()%></td>
         <td><%=customer.getEmail()%></td>
-        <td><a href="/deleteCustomer?id=<%=customer.getId()%>">Delete</a> <a href="/changeCustomer?id=<%=customer.getId()%>">Change</a> </td>
+        <td><a href="/deleteCustomer?id=<%=customer.getId()%>">Delete</a>
+            <a href="/changeCustomer?id=<%=customer.getId()%>">Change</a>
+        </td>
     </tr>
     <%}%>
 </table>

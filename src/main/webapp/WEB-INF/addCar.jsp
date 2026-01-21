@@ -5,7 +5,6 @@
     <link rel ="stylesheet" href="../css/addCar.css">
 </head>
 <body>
-
 <a href="/">Home</a>
 <a href="/cars">Cars</a>
 <form action="/addCar" method="post" enctype="multipart/form-data">

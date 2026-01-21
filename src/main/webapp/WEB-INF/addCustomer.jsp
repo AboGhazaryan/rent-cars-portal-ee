@@ -4,6 +4,7 @@
     <title>Add customer</title>
     <link rel="stylesheet" href="../css/addCust.css">
 </head>
+
 <body>
 <a href="/"></a>
 <a href="/customers">Customers</a>
