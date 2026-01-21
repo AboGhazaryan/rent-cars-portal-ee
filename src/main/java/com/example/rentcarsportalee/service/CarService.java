@@ -13,13 +13,14 @@ public class CarService {
 
     public void addCar(Car car){
 
-        String sql = "INSERT INTO car(brand,model,year,daily_Rate,status) VALUES (?,?,?,?,?)";
+        String sql = "INSERT INTO car(brand,model,year,daily_Rate,status,picture_name) VALUES (?,?,?,?,?,?)";
         try(PreparedStatement preparedStatement = connection.prepareStatement(sql,PreparedStatement.RETURN_GENERATED_KEYS)){
             preparedStatement.setString(1, car.getBrand());
             preparedStatement.setString(2, car.getModel());
             preparedStatement.setInt(3, car.getYear());
             preparedStatement.setDouble(4, car.getDailyRate());
             preparedStatement.setString(5, car.getCarStatus().name());
+            preparedStatement.setString(6,car.getPictureName());
             preparedStatement.executeUpdate();
             ResultSet resultkeys = preparedStatement.getGeneratedKeys();
             if (resultkeys.next()){
@@ -43,6 +44,7 @@ public class CarService {
                car.setYear(resultSet.getInt("year"));
                car.setDailyRate(resultSet.getDouble("daily_Rate"));
                car.setCarStatus(CarStatus.valueOf(resultSet.getString("status")));
+               car.setPictureName(resultSet.getString("picture_name"));
                return car;
             }
         }catch (SQLException e){
@@ -91,6 +93,7 @@ public class CarService {
                 car.setYear(resultSet.getInt("year"));
                 car.setDailyRate(resultSet.getDouble("daily_Rate"));
                 car.setCarStatus(CarStatus.valueOf(resultSet.getString("status").toUpperCase()));
+                car.setPictureName(resultSet.getString("picture_name"));
                 cars.add(car);
 
             }
@@ -114,6 +117,7 @@ public class CarService {
                 car.setYear(resultSet.getInt("year"));
                 car.setDailyRate(resultSet.getDouble("daily_Rate"));
                 car.setCarStatus(CarStatus.valueOf(resultSet.getString("status").toUpperCase()));
+                car.setPictureName(resultSet.getString("picture_name"));
                 cars.add(car);
             }
         }catch (SQLException e){

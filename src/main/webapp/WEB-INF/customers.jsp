@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>Customer</title>
+    <link rel="stylesheet" href="../css/customers.css">
 </head>
 <body>
 <%List<Customer> customers = (List<Customer>) request.getAttribute("customers");%>
@@ -29,7 +30,7 @@
         <td><%=customer.getLicenseNumber()%></td>
         <td><%=customer.getPhone()%></td>
         <td><%=customer.getEmail()%></td>
-        <td><a href="/deleteCustomer?id=<%=customer.getId()%>">Delete</a> | <a href="/changeCustomer?id=<%=customer.getId()%>">Change</a> </td>
+        <td><a href="/deleteCustomer?id=<%=customer.getId()%>">Delete</a> <a href="/changeCustomer?id=<%=customer.getId()%>">Change</a> </td>
     </tr>
     <%}%>
 </table>

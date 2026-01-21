@@ -15,4 +15,5 @@ public class Car {
     private int year;
     private double dailyRate;
     private CarStatus carStatus;
+    private String pictureName;
 }

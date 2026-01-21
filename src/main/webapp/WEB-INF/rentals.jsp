@@ -7,6 +7,7 @@
 <html>
 <head>
     <title>Rentals</title>
+    <link rel="stylesheet" href="../css/rentals.css">
 </head>
 <body>
 <%User user = (User) session.getAttribute("user");%>
@@ -37,7 +38,7 @@
     <td><%=rental.getTotalCost()%></td>
     <td><%=rental.getRentalStatus().name()%></td>
     <%if(user.getUserRole() == UserRole.ADMIN){%>
-    <td><a href="/deleteRental?id=<%=rental.getId()%>">Delete</a> | <a href="/changeRental?id=<%=rental.getId()%>">Change</a> </td>
+    <td><a href="/deleteRental?id=<%=rental.getId()%>">Delete</a> <a href="/changeRental?id=<%=rental.getId()%>">Change</a> </td>
     <%}%>
   </tr>
   <%}%>

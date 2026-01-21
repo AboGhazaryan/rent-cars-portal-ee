@@ -2,12 +2,13 @@
 <html>
 <head>
     <title>Add Course</title>
+    <link rel ="stylesheet" href="../css/addCar.css">
 </head>
 <body>
 
 <a href="/">Home</a>
 <a href="/cars">Cars</a>
-<form action="/addCar" method="post">
+<form action="/addCar" method="post" enctype="multipart/form-data">
     Brand:<input type="text" name="brand"><br>
     Model:<input type="text" name="model"><br>
     Year:<input type="text" name="year"><br>
@@ -19,7 +20,8 @@
         <option value="MAINTENANCE">Maintenance</option>
         <option value="INACTIVE">Inactive</option>
     </select>
-    <input type="submit" value="Add Car"><br>
+    <input type="file" name="image"><br>
+    <input type="submit" value="Add Car">
 </form>
 </body>
 </html>

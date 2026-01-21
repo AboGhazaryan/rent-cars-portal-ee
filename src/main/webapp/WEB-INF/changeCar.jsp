@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>Change Car</title>
+    <link rel="stylesheet" href="../css/changeCar.css">
 </head>
 <%Car car = (Car) request.getAttribute("car"); %>
 

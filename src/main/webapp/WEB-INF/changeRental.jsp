@@ -6,6 +6,7 @@
 <html>
 <head>
     <title>Change Rental</title>
+    <link rel="stylesheet" href="../css/changeRental.css">
 </head>
 <%Rental rental = (Rental) request.getAttribute("rental");%>
 <body>

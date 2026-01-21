@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.register-container {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    text-align: center;
+    width: 400px;
+}
+
+.register-container h2 {
+    margin-bottom: 25px;
+    color: white;
+}
+
+.register-container p {
+    color: #ff5252;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.register-container input[type="text"],
+.register-container input[type="password"],
+.register-container select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.register-container input[type="text"]:focus,
+.register-container input[type="password"]:focus,
+.register-container select:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 6px rgba(25,118,210,0.5);
+}
+
+.register-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1976d2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-container input[type="submit"]:hover {
+    background-color: #0d47a1;
+}

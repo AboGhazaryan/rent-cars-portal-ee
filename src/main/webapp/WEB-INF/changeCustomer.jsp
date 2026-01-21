@@ -4,6 +4,7 @@
 <html>
 <head>
     <title>Change Customer</title>
+    <link rel="stylesheet" href="../css/changeCust.css">
 </head>
 <%Customer customer = (Customer) request.getAttribute("customer"); %>
 
