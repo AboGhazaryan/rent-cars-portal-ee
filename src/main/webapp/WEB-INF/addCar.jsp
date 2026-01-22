@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Add Course</title>
+    <title>Add Car</title>
     <link rel ="stylesheet" href="../css/addCar.css">
 </head>
 
