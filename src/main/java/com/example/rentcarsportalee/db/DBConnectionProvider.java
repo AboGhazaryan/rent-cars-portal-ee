@@ -10,8 +10,8 @@ public class DBConnectionProvider {
     private Connection connection;
 
     private final String JDBC_URL = "jdbc:mysql://localhost:3306/rent_cars";
-    private final String JDMBC_USERNAME = "root";
-    private final String JDBC_PASSWORD = "adminroot";
+    private final String JDMBC_USERNAME = "";
+    private final String JDBC_PASSWORD ="";
 
     private DBConnectionProvider(){
         try {
